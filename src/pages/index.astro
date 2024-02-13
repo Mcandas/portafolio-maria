@@ -8,7 +8,7 @@ import Layout from '@layouts/Layout.astro';
 ---
 
 <Layout>
-	<main>
+	<main> 
 		<Hero />
 		<About />
 		<Projects />
@@ -16,3 +16,11 @@ import Layout from '@layouts/Layout.astro';
 		<BackToTop />
 	</main>
 </Layout>
+<style>
+main{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 5rem;
+}
+</style>
